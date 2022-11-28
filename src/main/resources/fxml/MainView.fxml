@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainView" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="150.0" layoutY="62.0" prefHeight="575.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+        <tabs>
+          <Tab fx:id="personalTab" text="Personal">
+            <content>
+              <AnchorPane prefHeight="600.0" prefWidth="800.0" />
+            </content>
+          </Tab>
+          <Tab fx:id="contactoTab" text="Contacto">
+            <content>
+              <AnchorPane prefHeight="600.0" prefWidth="800.0" />
+            </content>
+          </Tab>
+            <Tab fx:id="formacionTab" text="Formación">
+              <content>
+                <AnchorPane prefHeight="600.0" prefWidth="800.0" />
+              </content>
+            </Tab>
+            <Tab fx:id="experienciaTab" text="Experiencia">
+              <content>
+                <AnchorPane prefHeight="600.0" prefWidth="800.0" />
+              </content>
+            </Tab>
+            <Tab fx:id="conocimientosTab" text="Conocimientos">
+              <content>
+                <AnchorPane prefHeight="600.0" prefWidth="800.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <MenuBar fx:id="menuBar" prefHeight="25.0" prefWidth="800.0">
+        <menus>
+          <Menu fx:id="archivoMenu" mnemonicParsing="false" text="Archivo" />
+          <Menu fx:id="ayudaMenu" mnemonicParsing="false" text="Ayuda">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Acerca de ..." />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
