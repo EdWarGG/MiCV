@@ -1,8 +1,6 @@
-/**
- * 
- */
-package dad.micv.controllers;
+package dad.micv.main;
 
+import dad.micv.controllers.MainController;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

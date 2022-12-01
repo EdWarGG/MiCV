@@ -1,4 +1,4 @@
-package dad.micv.controllers;
+package dad.micv.main;
 
 public class Main {
 	
